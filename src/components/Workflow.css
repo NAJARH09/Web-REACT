@@ -1,0 +1,64 @@
+/* src/components/Workflow.css */
+
+.workflow-section {
+  background: #fff;
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.workflow-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.workflow-section h2::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 2px;
+  background: #333;
+  margin: 15px auto;
+}
+
+.workflow-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 0 5%;
+}
+
+.workflow-card {
+  background: #f9f9f9;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.workflow-card:hover {
+  transform: translateY(-5px);
+}
+
+.workflow-card i {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.workflow-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.workflow-card p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
+
+.workflow-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
